@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+    font-family: 'PT Serif', serif;
+}
+
+.container{
+    margin: 20px 120px;
+    padding: 20px;
+    color: #422e2e;
+    border-radius: 5px;
+    border: 1px solid #ffdac3;
+    background-color: #fff4dd;
+    font-family: 'PT Serif', serif;
+}
+
+.enter-city{
+    font-family: 'PT Serif', serif;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'PT Serif', serif;
+}
+
+button:hover {
+    box-shadow: 0px 2px 40px 0px #ffdac3;   
+}
+
+footer{
+    font-size: 15px;
+    font-weight:lighter;
+    text-align: center;
+}
+
+.cute{
+    font-size: 20px;
+}
