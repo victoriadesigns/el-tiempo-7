@@ -13,17 +13,33 @@ body{
     font-family: 'PT Serif', serif;
 }
 
-.enter-city{
+.search-form{
     font-family: 'PT Serif', serif;
+    padding: 3px;
+    border:none;
+    border-radius: 2px;
+    font-size:16px;
 }
 
+
+
 button{
+    background: #ffdac3;
     cursor: pointer;
     font-family: 'PT Serif', serif;
+    padding: 3px;
+    border: none;
+    border-radius: 2px;
+    font-size:16px;
 }
 
 button:hover {
-    box-shadow: 0px 2px 40px 0px #ffdac3;   
+    box-shadow: 2px 2px 2px 0px #e3a57f;  
+    
+}
+
+h3{
+    font-weight:100;
 }
 
 footer{
