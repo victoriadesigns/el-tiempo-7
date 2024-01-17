@@ -6,9 +6,34 @@
     <title>Tiempo App</title>
 </head>
 <body>
-    <h1>Bienvenidos al Tiempo App</h1>
+    <main>
+        <div class="container">
+          <form action="/submit" id="city-form">
+            <input
+              type="text"
+              name="name"
+              id="typed-city"
+              required
+              placeholder="Enter a city"
+            />
+            <button type="submit" class="btn btn-light">Search</button>
+          </form>
+          <h2>
+            🌞 /
+            <span id="displayedcity"> San Francisco </span>
+            <span id="current-temp"> / 22°C / </span>
+            <span id="displayedtime"> Tuesday 10:00 </span>
+          </h2>
+          <h3>
+            sunny, wind: 3.2 km/sec
+          </h3>
+    </main>
     <footer>
-        Built by Victoria Helmer
+        Coded by 
+        <a href="https://github.com/victoriadesigns" target="_blank">Victoria Helmer</a>, open-source on 
+        <a href="https://github.com/victoriadesigns/el-tiempo-7" target="_blank">GitHub</a>, and hosted on 
+        <a href="https://tiempo-app.netlify.app/" target="_blank">Netlify</a>.
+        <p class="cute">꒰ ꒱ؘ ࿐ ࿔*:･ﾟ</p>
     </footer>
 </body>
 </html>
