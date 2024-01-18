@@ -20,6 +20,7 @@ body{
     border:none;
     border-radius: 2px;
     font-size:16px;
+    transition: all 0.3s ease-in-out;
 }
 
 button{
@@ -31,12 +32,31 @@ button{
     border: none;
     border-radius: 2px;
     font-size:16px;
+    transition: all 0.3s ease-in-out;
 }
 
 button:hover {
     box-shadow: 2px 2px 2px 0px #e3a57f;  
     background: #FFF3DC;
     border: white;
+}
+
+.current-temp{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.current-temp:hover{
+    color:#e3a57f;
+}
+
+#displayedcity{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; 
+}
+
+#displayedcity:hover{
+    color:#7c6393;
 }
 
 h3{
@@ -49,6 +69,11 @@ h3{
    margin: 0 auto;
 }
 
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
 
 footer{
     font-size: 15px;
