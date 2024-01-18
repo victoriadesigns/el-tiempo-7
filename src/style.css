@@ -43,6 +43,12 @@ h3{
     font-weight:100;
 }
 
+.weather-app-icon{
+   font-size:smaller;
+   max-width:100%;
+   margin: 0 auto;
+}
+
 footer{
     font-size: 15px;
     font-weight:lighter;
