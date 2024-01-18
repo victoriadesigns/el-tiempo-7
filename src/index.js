@@ -5,9 +5,8 @@ function refreshWeather(response){
     let cityElement = document.querySelector("#displayedcity");
     cityElement.innerHTML = response.data.city;
 
-    
-
-    console.log(response)
+    let windElement = document.querySelector("#wind-speed");
+    windElement.innerHTML = response.data.wind.speed;
 
     displayedTemp.innerHTML = Math.round(temperature);
 }
