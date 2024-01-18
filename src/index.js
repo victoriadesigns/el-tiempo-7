@@ -6,7 +6,7 @@ function refreshWeather(response){
     cityElement.innerHTML = response.data.city;
 
     let icon = 
-    <img src="${response.condition.icon_url}" />;
+    <img src="${response.data.condition.icon_url}" />;
 
     let descriptionElement = document.querySelector("#description");
     descriptionElement.innerHTML = response.data.condition.description;
