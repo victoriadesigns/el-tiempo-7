@@ -25,3 +25,5 @@ function handleSearch(event) {
   
   let searchForm = document.querySelector("#city-form");
   searchForm.addEventListener("submit", handleSearch);
+
+  searchCity("Sunnyvale")
