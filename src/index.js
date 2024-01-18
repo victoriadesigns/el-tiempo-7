@@ -8,6 +8,8 @@ function refreshWeather(response){
     let windElement = document.querySelector("#wind-speed");
     windElement.innerHTML = response.data.wind.speed;
 
+    console.log(response.data);
+
     displayedTemp.innerHTML = Math.round(temperature);
 }
 
