@@ -19,6 +19,8 @@ function refreshWeather(response){
     timeElement.innerHTML = formatDate(date);
 
     displayedTemp.innerHTML = Math.round(temperature);
+
+    getForecast(response.data.city); 
 }
 
 function formatDate(date){
@@ -58,7 +60,16 @@ function handleSearch(event) {
     searchCity(searchInput.value);
   }
 
-  function displayForecast() {
+function getForecast(city){
+  let apiKey = "4454f13co397b7eaaf38b607eb9367t6";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  axios(apiUrl).then(displayForecast);
+}
+
+function displayForecast(response) {
+
+    console.log(response.data);
+
     let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
     let forecastHtml = "";
   
@@ -86,8 +97,9 @@ function handleSearch(event) {
   let searchForm = document.querySelector("#city-form");
   searchForm.addEventListener("submit", handleSearch);
 
-  searchCity("Sunnyvale")
-  displayForecast();
+searchCity("Sunnyvale")
+  
+
 
 
 
