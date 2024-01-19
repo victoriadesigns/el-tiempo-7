@@ -5,12 +5,13 @@ body{
 }
 
 .container{
-    margin: 30px 20px;
+    margin: 30px 120px;
     padding: 20px;
     color: #422e2e;
     border-radius: 5px;
     border: 1px solid #ffdac3;
     background-color: #fff4dd;
+    box-shadow: rgba(235, 65, 3, 0.25) 0px 30px 60px -12px;
 
 }
 
