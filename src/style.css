@@ -89,6 +89,7 @@ h3{
 
 .weather-forecast-date, .weather-forecast-temperature-min{
     opacity: 0.7;
+    text-align: center;
 }
 
 footer{
